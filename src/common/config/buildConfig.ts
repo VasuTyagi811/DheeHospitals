@@ -26,9 +26,14 @@ const buildConfig: BuildConfig = {
       name: 'example',
       url: 'https://example.com'
     }
-  */],
+  */
+      {
+        name: 'Dhee Hospitals',
+        url: 'https://dhee-chat.dev.zapws.in'
+      }
+    ],
     helpLink: 'https://docs.mattermost.com/messaging/managing-desktop-app-servers.html',
-    enableServerManagement: true,
+    enableServerManagement: false,
     enableAutoUpdater: true,
     managedResources: ['trusted'],
     allowedProtocols: [

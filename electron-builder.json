@@ -5,7 +5,7 @@
     "url": "https://releases.mattermost.com/desktop"
     }
   ],
-  "appId": "Mattermost.Desktop",
+  "appId": "com.nxtchat.dhee",
   "artifactName": "${version}/${name}-${version}-${os}-${arch}.${ext}",
   "directories": {
     "buildResources": "src/assets",
@@ -45,7 +45,7 @@
   "afterAllArtifactBuild": "scripts/afterbuild.js",
   "deb": {
     "artifactName": "${version}/${name}_${version}-1_${arch}.${ext}",
-    "synopsis": "Mattermost Desktop App",
+    "synopsis": "Dhee Hospitals",
     "depends": [
       "libnotify4",
       "libxtst6",

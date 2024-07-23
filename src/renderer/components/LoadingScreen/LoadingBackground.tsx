@@ -13,7 +13,7 @@ function LoadingBackground() {
                 xmlns='http://www.w3.org/2000/svg'
                 preserveAspectRatio='xMidYMid slice'
             >
-                <g style={{transform: 'translate(676px, -200px)'}}>
+                {/* <g style={{transform: 'translate(676px, -200px)'}}>
                     <g style={{transformOrigin: '450px 267.5px', transform: 'rotate(45deg)'}}>
                         <use href='#pill'/>
                     </g>
@@ -71,7 +71,7 @@ function LoadingBackground() {
                             stopOpacity='1'
                         />
                     </linearGradient>
-                </defs>
+                </defs> */}
             </svg>
         </div>
     );

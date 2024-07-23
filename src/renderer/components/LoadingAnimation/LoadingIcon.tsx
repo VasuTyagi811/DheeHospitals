@@ -143,7 +143,7 @@ function LoadingAnimation() {
                 </g>
             </g>
             <g className='LoadingAnimation__compass'>
-                <g
+                {/* <g
                     className='LoadingAnimation__compass-base-container'
                     mask='url(#LoadingAnimation__base-wipe-mask)'
                 >
@@ -167,7 +167,7 @@ function LoadingAnimation() {
                             </g>
                         </g>
                     </g>
-                </g>
+                </g> */}
             </g>
         </svg>
     );

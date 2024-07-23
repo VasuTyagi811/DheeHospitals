@@ -1,12 +1,12 @@
 {
   "name": "mattermost-desktop",
-  "productName": "Mattermost",
-  "version": "5.10.0-develop.1",
-  "description": "Mattermost",
+  "productName": "Dhee_Hospitals",
+  "version": "1.0.0",
+  "description": "Dhee_Hospitals",
   "main": "dist/index.js",
   "author": "Mattermost, Inc. <feedback@mattermost.com>",
   "license": "Apache-2.0",
-  "desktopName": "Mattermost.Desktop",
+  "desktopName": "com.nxtchat.dhee",
   "homepage": "https://mattermost.com",
   "engines": {
     "node": ">=18.0.0"
@@ -132,8 +132,8 @@
     "cross-env": "7.0.3",
     "css-loader": "6.7.1",
     "electron": "31.2.1",
-    "electron-builder": "24.13.3",
-    "electron-connect": "0.6.3",
+    "electron-builder": "^24.13.3",
+    "electron-connect": "^0.6.1",
     "eslint": "8.57.0",
     "eslint-import-resolver-webpack": "0.13.8",
     "eslint-plugin-formatjs": "4.12.2",

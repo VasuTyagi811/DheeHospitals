@@ -39,7 +39,7 @@ module.exports = merge(base, {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Mattermost Desktop App',
+            title: 'Dhee Hospitals',
             template: 'src/renderer/index.html',
             chunks: ['index'],
             filename: 'index.html',
